@@ -17,6 +17,21 @@ TextureImporter:
   - first:
       213: -6757624421243645739
     second: nicole_points
+  - first:
+      213: 2601167771491800275
+    second: nicole_tsktsk
+  - first:
+      213: 2898516288869261892
+    second: nicole_lipstick
+  - first:
+      213: 6446708061983766591
+    second: nicole_scoff
+  - first:
+      213: 5156246063009995187
+    second: nicole_pleased
+  - first:
+      213: 4534486227325757596
+    second: nicole_points
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -117,19 +132,19 @@ TextureImporter:
       name: nicole_tsktsk
       rect:
         serializedVersion: 2
-        x: 19
-        y: 19
-        width: 264
-        height: 862
+        x: 7
+        y: 22
+        width: 268
+        height: 866
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 774a494b91aa1d9b0800000000000000
-      internalID: -5057073879179811721
+      spriteID: 3d496fc7e44391420800000000000000
+      internalID: 2601167771491800275
       vertices: []
       indices: 
       edges: []
@@ -138,19 +153,19 @@ TextureImporter:
       name: nicole_lipstick
       rect:
         serializedVersion: 2
-        x: 288
-        y: 24
-        width: 393
-        height: 867
+        x: 303
+        y: 27
+        width: 397
+        height: 871
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 025834724d33ac4b0800000000000000
-      internalID: -5419462215302150880
+      spriteID: 4426cbd2539993820800000000000000
+      internalID: 2898516288869261892
       vertices: []
       indices: 
       edges: []
@@ -159,19 +174,19 @@ TextureImporter:
       name: nicole_scoff
       rect:
         serializedVersion: 2
-        x: 687
+        x: 736
         y: 12
-        width: 381
-        height: 884
+        width: 385
+        height: 887
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 680744cd71e82d620800000000000000
-      internalID: 2797454551681364102
+      spriteID: f38703583de477950800000000000000
+      internalID: 6446708061983766591
       vertices: []
       indices: 
       edges: []
@@ -180,19 +195,19 @@ TextureImporter:
       name: nicole_pleased
       rect:
         serializedVersion: 2
-        x: 1042
+        x: 1138
         y: 31
-        width: 407
-        height: 853
+        width: 411
+        height: 856
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e528c62907614b50800000000000000
-      internalID: 6575650219940652518
+      spriteID: 3b99730b97aae8740800000000000000
+      internalID: 5156246063009995187
       vertices: []
       indices: 
       edges: []
@@ -201,19 +216,19 @@ TextureImporter:
       name: nicole_points
       rect:
         serializedVersion: 2
-        x: 1476
+        x: 1557
         y: 42
-        width: 505
-        height: 828
+        width: 509
+        height: 832
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d0944e64681832a0800000000000000
-      internalID: -6757624421243645739
+      spriteID: c9827a2f23bbdee30800000000000000
+      internalID: 4534486227325757596
       vertices: []
       indices: 
       edges: []
