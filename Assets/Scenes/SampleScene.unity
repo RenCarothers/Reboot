@@ -159,7 +159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: -1, y: 0}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 403
@@ -172,8 +172,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 132209399}
-  selectedCommands:
-  - {fileID: 132209403}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -199,7 +198,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: Welcome to the game!!!
+  storyText: Sigh...glad I found my locker so quickly, but now what do I do with
+    all this extra time to kill before class?  {w=0.5}
   description: 
   character: {fileID: 6527907093928528372}
   portrait: {fileID: 21300000, guid: 23762305ea938432cad433ef0851ee99, type: 3}
@@ -227,7 +227,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 67
-    y: 70
+    y: 71
     width: 127
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -309,12 +309,12 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 6527907093928528372}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 3291711519210014717, guid: 67248bf5c087340809f5b70e989022e5,
+  portrait: {fileID: 3321904062644391602, guid: 67248bf5c087340809f5b70e989022e5,
     type: 3}
   offset: 0
-  fromPosition: {fileID: 7083625859257315537}
-  toPosition: {fileID: 7083625859377200168}
-  facing: 2
+  fromPosition: {fileID: 7083625860156333744}
+  toPosition: {fileID: 7083625859326936385}
+  facing: 1
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
@@ -825,7 +825,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -1300, y: -1100}
+  m_AnchoredPosition: {x: -1590, y: -1100}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &7083625859257315550
@@ -1319,7 +1319,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 1300, y: -1100}
+  m_AnchoredPosition: {x: 1590, y: -1100}
   m_SizeDelta: {x: 1000, y: 1000}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &7083625860156333745
