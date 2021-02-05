@@ -650,6 +650,7 @@ GameObject:
   - component: {fileID: 132209523}
   - component: {fileID: 132209522}
   - component: {fileID: 132209521}
+  - component: {fileID: 132209524}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -681,7 +682,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 132209425}
   selectedCommands: []
   variables: []
   description: 
@@ -1445,6 +1447,7 @@ MonoBehaviour:
   - {fileID: 132209427}
   - {fileID: 132209424}
   - {fileID: 132209426}
+  - {fileID: 132209524}
   suppressAllAutoSelections: 0
 --- !u!114 &132209426
 MonoBehaviour:
@@ -3988,6 +3991,25 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &132209524
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132209396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 288
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: 03_bedroom_1st_day_reflections
+  loadingImage: {fileID: 2800000, guid: 5fccaf8d668a24557b187be4bb296d31, type: 3}
+  sceneNameOLD: 
 --- !u!1 &172823892
 GameObject:
   m_ObjectHideFlags: 0
