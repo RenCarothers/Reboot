@@ -656,7 +656,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 132209445}
   selectedCommands:
-  - {fileID: 132209473}
+  - {fileID: 132209477}
   variables: []
   description: 
   stepPause: 0
@@ -768,7 +768,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &132209402
 MonoBehaviour:
@@ -1232,8 +1232,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 55
   indentLevel: 0
-  storyText: Well if it isn't the world's biggest loser, Jessie Marbella.  Converting
-    more freaks into the flock, I see.
+  storyText: Well, well, if it isn't the world's biggest loser, Jessie Marbella. 
+    Converting more freaks into the flock, I see.
   description: 
   character: {fileID: 7575444275830870135}
   portrait: {fileID: 21300000, guid: 5c34d29ea3b3c446a92871490525d4ed, type: 3}
@@ -1934,9 +1934,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 83
   indentLevel: 0
-  storyText: No--I didn't mean-- sorry, I just have a sort of dark sense of humor. 
-    Jessie, I'm really glad to have met you.  And she can't be that bad, I'm not
-    worried. {w=0.5}
+  storyText: No--I didn't mean--Jessie, I'm really glad to have met you.  And she
+    can't be that bad, I'm not worried. {w=0.5}
   description: 
   character: {fileID: 6527907093928528372}
   portrait: {fileID: 21300000, guid: 23762305ea938432cad433ef0851ee99, type: 3}
@@ -2116,8 +2115,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 76
   indentLevel: 0
-  storyText: Thing is...since she saw you with me...she might...take an interest
-    in you, too.{w=0.5}
+  storyText: Thing is...since she saw you with me...she might...decide to give you
+    a hassel, too.{w=0.5}
   description: 
   character: {fileID: 1401770160925836871}
   portrait: {fileID: 21300000, guid: e98922f7ea7a8499b9084c5cc5209eee, type: 3}
@@ -2144,7 +2143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 75
   indentLevel: 0
-  storyText: Wow.  She's... charming.  {w=0.5}
+  storyText: Wow.  She's...charming.  {w=0.5}
   description: 
   character: {fileID: 6527907093928528372}
   portrait: {fileID: 21300000, guid: 23762305ea938432cad433ef0851ee99, type: 3}
@@ -2550,8 +2549,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 99
   indentLevel: 0
-  storyText: This is Whistling Pines Junior High.  It's the middle of the school
-    year, but this is my first day because I just moved to town. {w=0.25}
+  storyText: I'm Rockett & this is Whistling Pines Junior High.  It's the middle
+    of the school year, but this is my first day because I just moved to town. {w=0.25}
   description: 
   character: {fileID: 6527907093928528372}
   portrait: {fileID: 0}
@@ -2729,8 +2728,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 107
   indentLevel: 0
-  storyText: Actually, she is.  But, let's just get you to class, for now, so you
-    can meet the teacher before class starts.{w=0.5}
+  storyText: Actually, she is.  But, let's just get you off to homeroom for now,
+    so you can meet the teacher before class starts.{w=0.5}
   description: 
   character: {fileID: 1401770160925836871}
   portrait: {fileID: 21300000, guid: e98922f7ea7a8499b9084c5cc5209eee, type: 3}
@@ -3144,7 +3143,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 140, y: 76}
+  m_AnchoredPosition: {x: 115, y: 76}
   m_SizeDelta: {x: 77.900024, y: 77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &172823894
@@ -3295,7 +3294,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &386864973
 GameObject:
@@ -3375,7 +3374,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &394930416
 GameObject:
@@ -3412,8 +3411,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -178.5, y: 308}
-  m_SizeDelta: {x: 275, y: 325}
+  m_AnchoredPosition: {x: -178.5, y: 280}
+  m_SizeDelta: {x: 250, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &394930418
 MonoBehaviour:
@@ -3553,7 +3552,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &586659073
 GameObject:
@@ -3878,7 +3877,7 @@ Transform:
   - {fileID: 6527907093928528375}
   - {fileID: 1401770160925836870}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1336819024
 GameObject:
@@ -4727,7 +4726,7 @@ RectTransform:
   m_Children:
   - {fileID: 586659078}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5194,7 +5193,7 @@ Transform:
   - {fileID: 7083625859467514031}
   - {fileID: 1985442413}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7083625858740525381
 GameObject:
@@ -5206,7 +5205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7083625858740525378}
   m_Layer: 0
-  m_Name: SceneSetupHallway
+  m_Name: SceneSetupSchoolyard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5519,7 +5518,7 @@ GameObject:
   - component: {fileID: 7083625859467514031}
   - component: {fileID: 7083625859467514030}
   m_Layer: 0
-  m_Name: ViewHallPan
+  m_Name: ViewSchoolyardPan
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -5579,7 +5578,7 @@ GameObject:
   - component: {fileID: 7083625859535728696}
   - component: {fileID: 7083625859535728699}
   m_Layer: 0
-  m_Name: ViewHallMain
+  m_Name: ViewSchoolyardMain
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -5923,7 +5922,7 @@ GameObject:
   - component: {fileID: 7083625860277976933}
   - component: {fileID: 7083625860277976932}
   m_Layer: 0
-  m_Name: StageHallway
+  m_Name: StageSchoolyard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
