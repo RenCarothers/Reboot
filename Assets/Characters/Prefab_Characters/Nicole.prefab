@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Nicole
-  nameColor: {r: 0, g: 0, b: 0, a: 1}
+  nameColor: {r: 0.7372549, g: 0.30588236, b: 0.56078434, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: -5419462215302150880, guid: bb841652baea842f3993c1bfe74d296c, type: 3}

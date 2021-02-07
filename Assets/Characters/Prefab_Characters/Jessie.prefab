@@ -44,14 +44,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Jessie
-  nameColor: {r: 0, g: 0, b: 0, a: 1}
+  nameColor: {r: 0.7372549, g: 0.30588236, b: 0.56078434, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 994116584283134471, guid: 01a5f963052654272a9ade9b2b30e759, type: 3}
   - {fileID: -2498260965257795650, guid: 01a5f963052654272a9ade9b2b30e759, type: 3}
   - {fileID: -6826562074425606596, guid: 01a5f963052654272a9ade9b2b30e759, type: 3}
-  - {fileID: -7799696602346396479, guid: 01a5f963052654272a9ade9b2b30e759, type: 3}
   - {fileID: 1895010221976813553, guid: 01a5f963052654272a9ade9b2b30e759, type: 3}
+  - {fileID: -7799696602346396479, guid: 01a5f963052654272a9ade9b2b30e759, type: 3}
   - {fileID: 21300000, guid: e98922f7ea7a8499b9084c5cc5209eee, type: 3}
   portraitsFace: 1
   setSayDialog: {fileID: 0}
