@@ -651,6 +651,8 @@ GameObject:
   - component: {fileID: 132209522}
   - component: {fileID: 132209521}
   - component: {fileID: 132209524}
+  - component: {fileID: 132209526}
+  - component: {fileID: 132209525}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -671,11 +673,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 32.82472, y: 10.405939}
+  scrollPos: {x: 63.815598, y: 21.535784}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 406
-  zoom: 0.9159994
+  zoom: 0.8419984
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -683,8 +685,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 132209425}
-  selectedCommands: []
+  - {fileID: 132209399}
+  selectedCommands:
+  - {fileID: 132209488}
   variables: []
   description: 
   stepPause: 0
@@ -710,7 +713,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: Ooooh salad today! Much better than meat casserole suprise!{w=0.5}
+  storyText: OMG, real vegetables today! Much more edible than yesterday's meat casserole
+    suprise!{w=0.5}
   description: 
   character: {fileID: 4281997559773776725}
   portrait: {fileID: 21300000, guid: acd271a48f3ae40fab795529e6ef4dca, type: 3}
@@ -738,8 +742,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -1.9114532
-    y: 55.67147
-    width: 72.37993
+    y: 54.579765
+    width: 71.97154
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1421,7 +1425,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 377.80322
     y: 58.746933
-    width: 116.04808
+    width: 116.50844
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1802,7 +1806,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 214.22237
     y: 70.02987
-    width: 101.85593
+    width: 103.44428
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1840,7 +1844,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -17.7621
     y: 120.73124
-    width: 175.54593
+    width: 177.67245
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1850,8 +1854,9 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 132209465}
-  - {fileID: 132209464}
   - {fileID: 132209463}
+  - {fileID: 132209464}
+  - {fileID: 132209526}
   - {fileID: 132209438}
   - {fileID: 132209493}
   - {fileID: 132209492}
@@ -1905,7 +1910,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -0.38931406
     y: 191.94054
-    width: 122.5983
+    width: 124.22817
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1985,7 +1990,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 200.49124
     y: 193.58292
-    width: 125.87341
+    width: 127.197296
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2010,6 +2015,7 @@ MonoBehaviour:
   - {fileID: 132209410}
   - {fileID: 132209409}
   - {fileID: 132209521}
+  - {fileID: 132209525}
   - {fileID: 132209520}
   - {fileID: 132209519}
   - {fileID: 132209518}
@@ -3034,7 +3040,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132209396}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
   m_Name: 
@@ -3052,7 +3058,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132209396}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
   m_Name: 
@@ -3514,7 +3520,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 406.30768
     y: 137.20493
-    width: 236.1355
+    width: 237.64882
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -4010,6 +4016,51 @@ MonoBehaviour:
     stringVal: 03_bedroom_1st_day_reflections
   loadingImage: {fileID: 2800000, guid: 5fccaf8d668a24557b187be4bb296d31, type: 3}
   sceneNameOLD: 
+--- !u!114 &132209525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132209396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 290
+  indentLevel: 0
+  storyText: '*snort* Lol, ok, fine.{w=0.5}'
+  description: 
+  character: {fileID: 4281997559773776725}
+  portrait: {fileID: 21300000, guid: acd271a48f3ae40fab795529e6ef4dca, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &132209526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132209396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 289
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
 --- !u!1 &172823892
 GameObject:
   m_ObjectHideFlags: 0

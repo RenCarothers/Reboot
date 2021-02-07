@@ -591,8 +591,6 @@ GameObject:
   - component: {fileID: 132209465}
   - component: {fileID: 132209466}
   - component: {fileID: 132209464}
-  - component: {fileID: 132209441}
-  - component: {fileID: 132209458}
   - component: {fileID: 132209463}
   - component: {fileID: 132209468}
   - component: {fileID: 132209470}
@@ -643,19 +641,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -1, y: 0}
+  scrollPos: {x: 35.48216, y: 12.888915}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 403
-  zoom: 1
+  zoom: 0.8659983
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 132209442}
+  selectedCommands:
+  - {fileID: 132209459}
   variables: []
   description: 
   stepPause: 0
@@ -710,7 +710,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 65
     y: 69
-    width: 72
+    width: 71.939995
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1681,7 +1681,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 310
     y: 69
-    width: 142
+    width: 141.2242
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1733,8 +1733,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 42
-    y: 130
-    width: 175
+    y: 131.0395
+    width: 174.13419
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1758,43 +1758,6 @@ MonoBehaviour:
   - {fileID: 132209424}
   - {fileID: 132209407}
   suppressAllAutoSelections: 0
---- !u!114 &132209441
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132209396}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 96
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'Jessie w=0.5: Who else do you have on your schedule?
-
-      Rockett
-      w=0.5: A Mr. Rarebit for art?  That''s the only one I really paid attention
-      to, cuz I love art; I''d hafta look at my schedule to remember the rest.
-
-      Jessie
-      w=0.5: Oh nice!  You''d love my friend Miko, then -- she''s in that class and
-      is a wizard of an artist!'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
 --- !u!114 &132209442
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1811,7 +1774,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 82
     y: 194
-    width: 103
+    width: 103.11789
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1821,12 +1784,10 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 132209467}
-  - {fileID: 132209441}
   - {fileID: 132209466}
   - {fileID: 132209465}
   - {fileID: 132209464}
   - {fileID: 132209463}
-  - {fileID: 132209458}
   - {fileID: 132209462}
   - {fileID: 132209461}
   - {fileID: 132209460}
@@ -1891,7 +1852,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 287
     y: 139
-    width: 192
+    width: 190.87787
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2244,47 +2205,6 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &132209458
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132209396}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 97
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'Rockett w=0.5: Cool!
-
-      Jessie w=0.5: Where''d you move from,
-      Rockett?
-
-      Rockett w=0.5: Forestville.
-
-      Jessie w=0.5: Oh cool, Well
-      what do you think of our little town so far?
-
-      Rockett w=0.5: Actually,
-      we just got here a few days ago.  All I''ve had time to do is start unpacking,
-      really.'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
 --- !u!114 &132209459
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2299,8 +2219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 89
   indentLevel: 0
-  storyText: Actually, we just got here.  All I've really had time to do is start
-    unpacking.{w=0.5}
+  storyText: Actually, we just got here.  All I've really had time to do is unpack.{w=0.5}
   description: 
   character: {fileID: 6527907093928528372}
   portrait: {fileID: 21300000, guid: 23762305ea938432cad433ef0851ee99, type: 3}
@@ -2728,8 +2647,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 107
   indentLevel: 0
-  storyText: Actually, she is.  But, let's just get you off to homeroom for now,
-    so you can meet the teacher before class starts.{w=0.5}
+  storyText: Actually, she is.  But, let's just get you to homeroom for now, so you
+    can meet the teacher before class starts.{w=0.5}
   description: 
   character: {fileID: 1401770160925836871}
   portrait: {fileID: 21300000, guid: e98922f7ea7a8499b9084c5cc5209eee, type: 3}

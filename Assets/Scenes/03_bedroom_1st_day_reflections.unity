@@ -507,6 +507,8 @@ GameObject:
   - component: {fileID: 132209483}
   - component: {fileID: 132209482}
   - component: {fileID: 132209491}
+  - component: {fileID: 132209492}
+  - component: {fileID: 132209493}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -541,7 +543,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 132209399}
   selectedCommands:
-  - {fileID: 132209491}
+  - {fileID: 132209493}
   variables:
   - {fileID: 132209418}
   - {fileID: 132209437}
@@ -599,6 +601,7 @@ MonoBehaviour:
   eventHandler: {fileID: 132209400}
   commandList:
   - {fileID: 132209406}
+  - {fileID: 132209493}
   - {fileID: 132209404}
   - {fileID: 132209405}
   - {fileID: 132209490}
@@ -4303,7 +4306,7 @@ MonoBehaviour:
     her up from soccer, and she didn't come to the car immediately, he yelled at
     her in front of everyone.  Another time Miko thought she saw him brown bagging
     it in the parklot (IDK what that is, but it I don't think it's a homemade lunch. 
-    Something rly bad.)  I wanted to tell my new friends about last yr...
+    Something rly bad.)  I started to tell my new friends about last yr...
   description: 
   character: {fileID: 2108162615}
   portrait: {fileID: 21300000, guid: 9ac5029b163fd4c63be4e31cf686217c, type: 3}
@@ -4366,7 +4369,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 82
   indentLevel: 0
-  storyText: ...and what happened with Lindsey, but I was too nervous and embarrassed. 
+  storyText: ...and what happened with Lindsey, but got too nervous to say much. 
     With this fresh start and all, I am trying to play it cool and not be intimidated,
     but I am afraid of chickening out next time Nicole comes by.  I told Jessie I
     thought we should stand up to her together, but she seemed to think it was useless. 
@@ -4555,6 +4558,7 @@ MonoBehaviour:
   eventHandler: {fileID: 132209477}
   commandList:
   - {fileID: 132209476}
+  - {fileID: 132209492}
   suppressAllAutoSelections: 0
 --- !u!114 &132209479
 MonoBehaviour:
@@ -4791,6 +4795,36 @@ MonoBehaviour:
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &132209492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132209396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1337544a71d4d5dab5510fe86ddca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 104
+  indentLevel: 0
+--- !u!114 &132209493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132209396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb6f88496f37c444a91acef47749f723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 105
+  indentLevel: 0
+  cursorTexture: {fileID: 2800000, guid: 502e0c9b755f34db0b90bf78857d8a1c, type: 3}
+  hotSpot: {x: 0, y: 0}
 --- !u!1 &267336569
 GameObject:
   m_ObjectHideFlags: 1
@@ -5054,7 +5088,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3, y: 3}
+  m_Size: {x: 2, y: 0.5}
   m_EdgeRadius: 0
 --- !u!212 &514102462
 SpriteRenderer:
