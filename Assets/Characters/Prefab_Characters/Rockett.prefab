@@ -44,15 +44,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Rockett
-  nameColor: {r: 0, g: 0, b: 0, a: 1}
+  nameColor: {r: 0.7372549, g: 0.30588236, b: 0.56078434, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 3269485850262331597, guid: 1dad92de8f3944c5f924819a90fd1d38, type: 3}
-  - {fileID: 5872738638316581005, guid: 1dad92de8f3944c5f924819a90fd1d38, type: 3}
-  - {fileID: -1160844595479267727, guid: 1dad92de8f3944c5f924819a90fd1d38, type: 3}
+  - {fileID: 3291711519210014717, guid: 67248bf5c087340809f5b70e989022e5, type: 3}
   - {fileID: 6360888635567089278, guid: 1dad92de8f3944c5f924819a90fd1d38, type: 3}
   - {fileID: -8575984790624479096, guid: 1dad92de8f3944c5f924819a90fd1d38, type: 3}
-  - {fileID: 3291711519210014717, guid: 67248bf5c087340809f5b70e989022e5, type: 3}
+  - {fileID: 5872738638316581005, guid: 1dad92de8f3944c5f924819a90fd1d38, type: 3}
+  - {fileID: -1160844595479267727, guid: 1dad92de8f3944c5f924819a90fd1d38, type: 3}
   - {fileID: 3321904062644391602, guid: 67248bf5c087340809f5b70e989022e5, type: 3}
   - {fileID: -7140411335349644113, guid: 67248bf5c087340809f5b70e989022e5, type: 3}
   - {fileID: -2364768339517925339, guid: 67248bf5c087340809f5b70e989022e5, type: 3}

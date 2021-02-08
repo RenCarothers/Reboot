@@ -861,6 +861,7 @@ GameObject:
   - component: {fileID: 444396400}
   - component: {fileID: 444396389}
   - component: {fileID: 444396392}
+  - component: {fileID: 444396405}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -893,9 +894,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 444396315}
+  - {fileID: 444396313}
   selectedCommands:
-  - {fileID: 444396394}
+  - {fileID: 444396281}
   variables: []
   description: 
   stepPause: 0
@@ -2625,6 +2626,7 @@ MonoBehaviour:
   - {fileID: 444396337}
   - {fileID: 444396335}
   - {fileID: 444396281}
+  - {fileID: 444396405}
   - {fileID: 444396363}
   - {fileID: 444396361}
   - {fileID: 444396362}
@@ -3952,7 +3954,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 124
   indentLevel: 0
-  storyText: What the frick just happened?!  Ugh, fine, whatever. They're obviously
+  storyText: Uh, what the frick just happened?!  Ugh, fine, whatever. They're obviously
     just jealous.
   description: 
   character: {fileID: 15019137}
@@ -5074,6 +5076,24 @@ MonoBehaviour:
   useDefaultSettings: 1
   fadeDuration: 0
   waitUntilFinished: 0
+--- !u!114 &444396405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444396248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 185
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1.5
+  durationOLD: 0
 --- !u!1001 &457118494
 PrefabInstance:
   m_ObjectHideFlags: 0
