@@ -862,6 +862,7 @@ GameObject:
   - component: {fileID: 444396389}
   - component: {fileID: 444396392}
   - component: {fileID: 444396405}
+  - component: {fileID: 444396406}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -896,7 +897,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 444396313}
   selectedCommands:
-  - {fileID: 444396281}
+  - {fileID: 444396406}
   variables: []
   description: 
   stepPause: 0
@@ -2628,6 +2629,7 @@ MonoBehaviour:
   - {fileID: 444396281}
   - {fileID: 444396405}
   - {fileID: 444396363}
+  - {fileID: 444396406}
   - {fileID: 444396361}
   - {fileID: 444396362}
   suppressAllAutoSelections: 0
@@ -3107,7 +3109,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 109
   indentLevel: 0
-  storyText: Oh right, Mr. Baldus is waiting for us, you said? We'd better hurry.
+  storyText: Oh right, Mr. Baldus is waiting for us, you said? I'm really glad he
+    agreed to review with us {i}every{/i} morning. I guess we'd better hurry!
   description: 
   character: {fileID: 279581742}
   portrait: {fileID: 21300000, guid: 23762305ea938432cad433ef0851ee99, type: 3}
@@ -3954,8 +3957,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 124
   indentLevel: 0
-  storyText: Uh, what the frick just happened?!  Ugh, fine, whatever. They're obviously
-    just jealous.
+  storyText: Uh, what the frick just happened?!  Did I just get ignored?!
   description: 
   character: {fileID: 15019137}
   portrait: {fileID: 21300000, guid: 5c34d29ea3b3c446a92871490525d4ed, type: 3}
@@ -5094,6 +5096,34 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 1.5
   durationOLD: 0
+--- !u!114 &444396406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 444396248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 186
+  indentLevel: 0
+  storyText: Ugh, fine, I guess those little zits won't be any fun anymore anyway,
+    if they're gunna be galavanting with a stupid teacher now. Bleh, whatever.
+  description: 
+  character: {fileID: 15019137}
+  portrait: {fileID: 21300000, guid: 5c34d29ea3b3c446a92871490525d4ed, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1001 &457118494
 PrefabInstance:
   m_ObjectHideFlags: 0
