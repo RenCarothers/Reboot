@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/03_bedroom_1st_day_reflections.unity
     guid: 17b418b5e544d4b88959d2c8c155041a
+  - enabled: 1
+    path: Assets/Scenes/04_hallway_bullying.unity
+    guid: fefa572311ebf4e9f82cf734fccb607d
+  - enabled: 1
+    path: Assets/Scenes/05_bathroom_emotional_repair.unity
+    guid: 5b81a5e88f7924e33bd5a3b4d689364e
+  - enabled: 1
+    path: Assets/Scenes/05_classroom_emotional_repair.unity
+    guid: 3f582a40d5d1c4f888f112885b3992e1
   m_configObjects: {}
