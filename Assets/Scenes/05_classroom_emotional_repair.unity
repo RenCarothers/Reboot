@@ -280,6 +280,9 @@ GameObject:
   - component: {fileID: 478797233}
   - component: {fileID: 478797271}
   - component: {fileID: 478797270}
+  - component: {fileID: 478797291}
+  - component: {fileID: 478797290}
+  - component: {fileID: 478797292}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -312,9 +315,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 478797230}
+  - {fileID: 478797227}
   selectedCommands:
-  - {fileID: 478797224}
+  - {fileID: 478797292}
   variables: []
   description: 
   stepPause: 0
@@ -435,7 +438,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 264
-    y: 133
+    y: 132
     width: 86
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -480,6 +483,9 @@ MonoBehaviour:
   - {fileID: 478797237}
   - {fileID: 478797236}
   - {fileID: 478797233}
+  - {fileID: 478797291}
+  - {fileID: 478797292}
+  - {fileID: 478797290}
   suppressAllAutoSelections: 0
 --- !u!114 &478797228
 MonoBehaviour:
@@ -2246,6 +2252,63 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &478797290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478797221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 158
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: 06_bedroom_reflections
+  loadingImage: {fileID: 2800000, guid: 5fccaf8d668a24557b187be4bb296d31, type: 3}
+  sceneNameOLD: 
+--- !u!114 &478797291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478797221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 157
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &478797292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478797221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 159
+  indentLevel: 0
+  duration: 2.5
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
 --- !u!1001 &697068338
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -269,6 +269,8 @@ GameObject:
   - component: {fileID: 478797223}
   - component: {fileID: 478797256}
   - component: {fileID: 478797255}
+  - component: {fileID: 478797258}
+  - component: {fileID: 478797257}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -301,9 +303,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 478797230}
+  - {fileID: 478797227}
   selectedCommands:
-  - {fileID: 478797255}
+  - {fileID: 478797257}
   variables: []
   description: 
   stepPause: 0
@@ -447,6 +449,8 @@ MonoBehaviour:
   - {fileID: 478797235}
   - {fileID: 478797234}
   - {fileID: 478797233}
+  - {fileID: 478797258}
+  - {fileID: 478797257}
   suppressAllAutoSelections: 0
 --- !u!114 &478797228
 MonoBehaviour:
@@ -1199,6 +1203,45 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 0.5
   durationOLD: 0
+--- !u!114 &478797257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478797221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 128
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: 06_bedroom_reflections
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &478797258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478797221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 127
+  indentLevel: 0
+  duration: 2.5
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
 --- !u!114 &478797277
 MonoBehaviour:
   m_ObjectHideFlags: 2

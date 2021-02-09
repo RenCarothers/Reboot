@@ -507,8 +507,8 @@ GameObject:
   - component: {fileID: 132209483}
   - component: {fileID: 132209482}
   - component: {fileID: 132209491}
-  - component: {fileID: 132209492}
   - component: {fileID: 132209493}
+  - component: {fileID: 132209492}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -541,9 +541,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 132209399}
+  - {fileID: 132209478}
   selectedCommands:
-  - {fileID: 132209493}
+  - {fileID: 132209492}
   variables:
   - {fileID: 132209418}
   - {fileID: 132209437}
@@ -4230,7 +4230,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 349.83475
-    y: 60.553413
+    y: 61.712166
     width: 123.58069
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4804,11 +4804,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 132209396}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e1337544a71d4d5dab5510fe86ddca8, type: 3}
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 104
+  itemId: 106
   indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: 04_hallway_bullying
+  loadingImage: {fileID: 2800000, guid: 5fccaf8d668a24557b187be4bb296d31, type: 3}
+  sceneNameOLD: 
 --- !u!114 &132209493
 MonoBehaviour:
   m_ObjectHideFlags: 0
