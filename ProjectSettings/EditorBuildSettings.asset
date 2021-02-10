@@ -33,6 +33,6 @@ EditorBuildSettings:
     path: Assets/Scenes/06_bedroom_reflections.unity
     guid: 818a6611e36a14e9eb83c070b5f44e59
   - enabled: 1
-    path: Assets/Scenes/SampleSceneBattlerDemo.unity
+    path: Assets/Scenes/04.5_battleinterlude.unity
     guid: fab6e0246b5734f88900bc1a16d79fd7
   m_configObjects: {}
