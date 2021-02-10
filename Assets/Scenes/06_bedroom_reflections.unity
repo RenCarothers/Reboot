@@ -966,7 +966,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1245071261}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1245071262}
   variables:
   - {fileID: 1245071271}
   description: 
@@ -2594,7 +2595,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 48
   indentLevel: 0
-  storyText: Be seein' ya! {w=0.35}
+  storyText: Thanks for your help, byeeee! {w=0.35}
   description: 
   character: {fileID: 1685909999}
   portrait: {fileID: 0}
