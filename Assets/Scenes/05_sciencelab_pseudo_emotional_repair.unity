@@ -297,8 +297,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 478797228}
-  selectedCommands:
-  - {fileID: 478797291}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -952,7 +951,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 144
   indentLevel: 0
-  storyText: Then they'll see.  I can fix this.
+  storyText: They'll come around.  Nicole's toast.  They'll see.
   description: 
   character: {fileID: 953351101}
   portrait: {fileID: 21300000, guid: 23762305ea938432cad433ef0851ee99, type: 3}
@@ -1179,7 +1178,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 99
   indentLevel: 0
-  storyText: Crap...ugh, well then, I'll just have to take her on myself.
+  storyText: Crap...how did I save the day and yet manage to make everyone mad at
+    me??
   description: 
   character: {fileID: 953351101}
   portrait: {fileID: 21300000, guid: 23762305ea938432cad433ef0851ee99, type: 3}

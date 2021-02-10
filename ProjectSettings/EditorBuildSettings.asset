@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/05_classroom_emotional_repair.unity
     guid: 3f582a40d5d1c4f888f112885b3992e1
   - enabled: 1
+    path: Assets/Scenes/05_sciencelab_pseudo_emotional_repair.unity
+    guid: 0756155ee73714dec961b72e1c6ceb9c
+  - enabled: 1
     path: Assets/Scenes/06_bedroom_reflections.unity
     guid: 818a6611e36a14e9eb83c070b5f44e59
   - enabled: 1

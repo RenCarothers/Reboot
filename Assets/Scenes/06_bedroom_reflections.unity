@@ -336,7 +336,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.03, y: 0.61}
+    oldSize: {x: 2.65, y: 0.65}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -932,6 +932,7 @@ GameObject:
   - component: {fileID: 1245071260}
   - component: {fileID: 1245071283}
   - component: {fileID: 1245071284}
+  - component: {fileID: 1245071279}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1406,6 +1407,7 @@ MonoBehaviour:
   - {fileID: 1245071283}
   - {fileID: 1245071260}
   - {fileID: 1245071258}
+  - {fileID: 1245071279}
   suppressAllAutoSelections: 0
 --- !u!114 &1245071262
 MonoBehaviour:
@@ -1708,11 +1710,11 @@ MonoBehaviour:
     Jessie and I in the hallway.  Jessie completely froze.   I was ready.  I came
     at Nicole with the best insults, you should''ve seen it!!  Bscly I told her there
     was nothing sadder than a bully so miserable with being themself that they need
-    to pick on people.  Oh man the look on her face.  She was so pissed she ran out
-    of combacks!
+    to pick on people.  Oh man, the look on her face.  She was so pissed, she ran
+    out of combacks!
 
-    Later at lunch, she came out of nowhere and challenged me again,
-    tho.  We had an epic foodfight, which I won, duh!'
+    She tried to shove me around, but she lost, obviously. 
+    It''s like the fight went right out of her after I put her in her place. '
   description: 
   character: {fileID: 1685909999}
   portrait: {fileID: 21300000, guid: 4f21eda498b4c49b9b5b94e5142d9cbb, type: 3}
@@ -2501,6 +2503,20 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1245071279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245071241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1337544a71d4d5dab5510fe86ddca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 50
+  indentLevel: 0
 --- !u!114 &1245071280
 MonoBehaviour:
   m_ObjectHideFlags: 0

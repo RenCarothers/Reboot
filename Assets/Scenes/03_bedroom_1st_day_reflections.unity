@@ -565,8 +565,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 132209478}
-  selectedCommands: []
+  - {fileID: 132209464}
+  selectedCommands:
+  - {fileID: 132209466}
   variables:
   - {fileID: 132209437}
   description: 
@@ -3146,8 +3147,8 @@ MonoBehaviour:
     b*atch because she has problems at home.  One time when Nicole's dad was picking
     her up from soccer, and she didn't come to the car immediately, he yelled at
     her in front of everyone.  Another time Miko thought she saw him brown bagging
-    it in the parklot (IDK what that is, but it I don't think it's a homemade lunch. 
-    Something rly bad.)  I started to tell my new friends about last yr...
+    it in the parking lot (idk what that is, but it I don't think it's a homemade
+    lunch.  Something rly bad.)  I started to tell my new friends about last yr...
   description: 
   character: {fileID: 2108162615}
   portrait: {fileID: 21300000, guid: 9ac5029b163fd4c63be4e31cf686217c, type: 3}
