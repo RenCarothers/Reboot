@@ -47,8 +47,8 @@ MonoBehaviour:
   unitName: Rockett
   unitLevel: 999
   damage: 10
-  maxHP: 25
-  currentHP: 25
+  maxHP: 40
+  currentHP: 40
 --- !u!1 &6450721039946225802
 GameObject:
   m_ObjectHideFlags: 0
