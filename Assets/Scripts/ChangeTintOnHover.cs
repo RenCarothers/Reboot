@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OnHover : MonoBehaviour
+public class ChangeTintOnHover : MonoBehaviour
 {   
     public SpriteRenderer sprite;
 
