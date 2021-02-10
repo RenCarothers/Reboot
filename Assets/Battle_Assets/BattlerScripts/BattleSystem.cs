@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Fungus;
 
 public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
 
 public class BattleSystem : MonoBehaviour
 {
+	public Fungus.Flowchart flowchart;
 
 	public GameObject playerPrefab;
 	public GameObject enemyPrefab;
@@ -52,9 +54,15 @@ public class BattleSystem : MonoBehaviour
 
 	IEnumerator PlayerAttack()
 	{
+
 		bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
 
 		enemyHUD.SetHP(enemyUnit.currentHP);
+
+		flowchart.ExecuteBlock("PunchEnemy");
+
+		yield return new WaitForSeconds(1f);
+
 		dialogueText.text = "The attack is successful!";
 
 		yield return new WaitForSeconds(2f);
@@ -73,6 +81,8 @@ public class BattleSystem : MonoBehaviour
 	IEnumerator EnemyTurn()
 	{
 		dialogueText.text = enemyUnit.unitName + " attacks!";
+
+		flowchart.ExecuteBlock("PunchPlayer");
 
 		yield return new WaitForSeconds(1f);
 
@@ -98,7 +108,12 @@ public class BattleSystem : MonoBehaviour
 	{
 		if(state == BattleState.WON)
 		{
-			dialogueText.text = "You won the battle!";
+			// dialogueText.text = "You won the battle!";
+
+			// yield return new WaitForSeconds(2f);
+
+			flowchart.ExecuteBlock("PlayerWins");
+
 		} else if (state == BattleState.LOST)
 		{
 			dialogueText.text = "You were defeated.";

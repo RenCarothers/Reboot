@@ -752,9 +752,7 @@ GameObject:
   - component: {fileID: 1245071262}
   - component: {fileID: 1245071256}
   - component: {fileID: 1245071255}
-  - component: {fileID: 1245071268}
   - component: {fileID: 1245071269}
-  - component: {fileID: 1245071264}
   - component: {fileID: 1245071263}
   - component: {fileID: 1245071270}
   - component: {fileID: 1245071271}
@@ -766,6 +764,10 @@ GameObject:
   - component: {fileID: 1245071275}
   - component: {fileID: 1245071273}
   - component: {fileID: 1245071279}
+  - component: {fileID: 1245071281}
+  - component: {fileID: 1245071280}
+  - component: {fileID: 1245071268}
+  - component: {fileID: 1245071264}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -798,8 +800,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1245071261}
-  selectedCommands: []
+  - {fileID: 1245071267}
+  selectedCommands:
+  - {fileID: 1245071275}
   variables:
   - {fileID: 1245071271}
   description: 
@@ -1277,20 +1280,22 @@ MonoBehaviour:
   setSayDialog: {fileID: 365479377}
 --- !u!114 &1245071264
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245071241}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 29
+  itemId: 43
   indentLevel: 1
-  commenterName: 
-  commentText: if flight
+  targetClickable2D: {fileID: 283278520}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
 --- !u!114 &1245071265
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1369,36 +1374,41 @@ MonoBehaviour:
   commandList:
   - {fileID: 1245071272}
   - {fileID: 1245071278}
-  - {fileID: 1245071268}
   - {fileID: 1245071266}
   - {fileID: 1245071269}
-  - {fileID: 1245071264}
   - {fileID: 1245071262}
   - {fileID: 1245071256}
   - {fileID: 1245071277}
   - {fileID: 1245071263}
   - {fileID: 1245071270}
+  - {fileID: 1245071281}
+  - {fileID: 1245071280}
   - {fileID: 1245071276}
   - {fileID: 1245071273}
   - {fileID: 1245071275}
+  - {fileID: 1245071268}
+  - {fileID: 1245071264}
   - {fileID: 1245071274}
   suppressAllAutoSelections: 0
 --- !u!114 &1245071268
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245071241}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d1724bb98f694376b7653fa24a54541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 27
+  itemId: 42
   indentLevel: 1
-  commenterName: 
-  commentText: If fawn
+  targetSprites:
+  - {fileID: 283278522}
+  orderInLayer:
+    integerRef: {fileID: 0}
+    integerVal: 4
 --- !u!114 &1245071269
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1672,7 +1682,7 @@ MonoBehaviour:
           spriteVal: {fileID: 0}
         stringData:
           stringRef: {fileID: 0}
-          stringVal: freeze
+          stringVal: fight
         textureData:
           textureRef: {fileID: 0}
           textureVal: {fileID: 0}
@@ -2326,6 +2336,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 39
   indentLevel: 0
+--- !u!114 &1245071280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245071241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 41
+  indentLevel: 1
+  targetClickable2D: {fileID: 283278520}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+--- !u!114 &1245071281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245071241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1724bb98f694376b7653fa24a54541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 40
+  indentLevel: 1
+  targetSprites:
+  - {fileID: 283278522}
+  orderInLayer:
+    integerRef: {fileID: 0}
+    integerVal: 4
 --- !u!1 &1249339879
 GameObject:
   m_ObjectHideFlags: 0
