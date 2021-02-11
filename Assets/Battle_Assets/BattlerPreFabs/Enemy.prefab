@@ -48,7 +48,7 @@ MonoBehaviour:
   unitLevel: 2
   damage: 5
   maxHP: 40
-  currentHP: 30
+  currentHP: 40
 --- !u!1 &5492376629917588543
 GameObject:
   m_ObjectHideFlags: 0

@@ -1976,8 +1976,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 922936042}
-  selectedCommands:
-  - {fileID: 922936068}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -4953,7 +4952,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Ally
+  m_Text: 'Heal
 
 '
 --- !u!222 &1679374786

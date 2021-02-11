@@ -55,7 +55,19 @@ public class BattleSystem : MonoBehaviour
 
 		yield return new WaitForSeconds(3f);
 
-		dialogueText.text = enemyUnit.unitName + " appears weakened.";
+		dialogueText.text = enemyUnit.unitName + " appears weakened by your insults!";
+
+		enemyUnit.TakeDamage(playerUnit.damage);
+
+		enemyHUD.SetHP(enemyUnit.currentHP);
+
+		yield return new WaitForSeconds(2f);
+
+		dialogueText.text = "Your confidence strengthens your level!";
+
+		playerUnit.unitLevel = 999;
+
+		playerHUD.SetHUD(playerUnit);
 
 		yield return new WaitForSeconds(2f);
 
@@ -67,7 +79,7 @@ public class BattleSystem : MonoBehaviour
 	{
 		playerAttackState = PlayerAttackInProgress.YES; // update state; the player is currently in an attack
 
-		dialogueText.text = "Rockett attacks!";
+		dialogueText.text = "Rockett shoves Nicole!";
 
 		yield return new WaitForSeconds(1f);
 
@@ -79,7 +91,7 @@ public class BattleSystem : MonoBehaviour
 
 		yield return new WaitForSeconds(1f);
 
-		dialogueText.text = "The attack is successful!";
+		dialogueText.text = "Nicole staggers backwards!";
 
 		yield return new WaitForSeconds(2f);
 

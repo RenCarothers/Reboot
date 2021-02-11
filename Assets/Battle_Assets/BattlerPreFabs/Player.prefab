@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitName: Rockett
-  unitLevel: 999
+  unitLevel: 2
   damage: 10
   maxHP: 40
   currentHP: 40
