@@ -879,9 +879,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1245071261}
+  - {fileID: 1245071267}
   selectedCommands:
-  - {fileID: 1245071254}
+  - {fileID: 1245071278}
   variables:
   - {fileID: 1245071271}
   description: 
@@ -1336,7 +1336,7 @@ MonoBehaviour:
     humorous the way she whined about being ignored.  She was all, \"OMG I know you
     can hear me! Wahhh!\"  \n\tTo make sure she didn't try to keep at it, I loudly
     stated to Jessie that we'd better get to our {i}daily{/i} morning meeting with
-    Mr. Baldy.  When we fled, she didn't follow!  It worked like a charm!"
+    Mr. Baldy.  When we fled, she didn't follow!  It worked!"
   description: 
   character: {fileID: 1685909999}
   portrait: {fileID: 21300000, guid: 4f21eda498b4c49b9b5b94e5142d9cbb, type: 3}
@@ -1385,9 +1385,9 @@ MonoBehaviour:
     Jessie and I in the hallway.  Jessie completely froze, so I jumped in the line
     of fire.  Nicole tried to goad me with insults, but I played it as cool as I
     could and acted like there was nothing she could say that I didn't already know.  
-    It worked!  After a while she ran out of things to say and just left!  \n\tI
-    was afraid Jessie was going to be upset at my intervention, but she seemed grateful. 
-    I felt pretty defeated, though, enduring all of Nicole's ridicule. "
+    It worked!  She ran out of things to say and just left!  \n\tI was afraid Jessie
+    was going to be upset at my intervention, but she seemed grateful.  I felt pretty
+    defeated, though, enduring all of Nicole's ridicule. "
   description: 
   character: {fileID: 1685909999}
   portrait: {fileID: 21300000, guid: 4f21eda498b4c49b9b5b94e5142d9cbb, type: 3}
@@ -1555,9 +1555,8 @@ MonoBehaviour:
     at Nicole with the best insults, you should've seen it!!  Oh man, the look on
     her face.  She was so pissed, she ran out of combacks!  She tried to shove me
     around, but she lost, obviously.  It's like the fight went right out of her after
-    I put her in her place.  \n\tOMG I feel so flipping amazing!! I took her on and
-    I won!  If she tries to come at me again, I know I can take her.   I'm not scared
-    anymore."
+    I put her in her place.  \n\tOMG I feel so flipping amazing!! I'd like to see
+    her try to come at me now.  I'm not scared anymore."
   description: 
   character: {fileID: 1685909999}
   portrait: {fileID: 21300000, guid: 4f21eda498b4c49b9b5b94e5142d9cbb, type: 3}
@@ -1600,12 +1599,11 @@ MonoBehaviour:
   indentLevel: 1
   storyText: "\tBut, Jess is frustrated that I took the offensive with Nicole.  She
     was really quiet at lunch.  She is convinced that Nicole is going come at her
-    worse now.   I guess I did go against Jessie's wishes... but I think it was for
-    the best.  She'll come around when she sees how much better things are going
-    to be now.\n\tI'll seriously bully the heck out of Nicole if she tries to hurt
-    any of us.   Idk what it's gunna be like when we see her next, but sounds like
-    her tail is between her legs!  Who's the loser now? Haha.  I'll gunna go in early
-    tmrw and try to apologize to Jess again."
+    worse now.   I guess I did go against Jessie's wishes... but she'll come around...things
+    are going to be better now.\n\tI'll seriously bully the heck out of Nicole if
+    she tries to hurt any of us again.   Anyway, her tail is between her legs now! 
+    (Who's the loser now? Haha.)  \n\tI'll gunna go in early tmrw and try to apologize
+    to Jess again."
   description: 
   character: {fileID: 1685909999}
   portrait: {fileID: 21300000, guid: 8b7f2931701ba4b2c9c8cb054b205920, type: 3}

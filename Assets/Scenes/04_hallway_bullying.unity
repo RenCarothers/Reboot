@@ -995,7 +995,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 444396315}
   selectedCommands:
-  - {fileID: 444396398}
+  - {fileID: 444396391}
   variables:
   - {fileID: 444396419}
   description: 
@@ -2333,8 +2333,8 @@ MonoBehaviour:
   itemId: 68
   indentLevel: 0
   storyText: Or, I suppose, maybe I could just act like her insults don't bother
-    me.  I could just nonchalantly agree with her, to try to de-escalatethings--
-    maybe she'll get bored if she doesn't get a rise out of me??
+    me.  Like, nonchalantly agree with her, to de-escalate things-- maybe she'll
+    get bored??
   description: 
   character: {fileID: 279581742}
   portrait: {fileID: 0}
@@ -4797,7 +4797,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 230
   indentLevel: 0
-  musicClip: {fileID: 8300000, guid: a32e9f26558a44175ad349753a697df6, type: 3}
+  musicClip: {fileID: 8300000, guid: e90961c0a47614967970c5b24beee4f7, type: 3}
   atTime: 0
   loop: 1
   fadeDuration: 1

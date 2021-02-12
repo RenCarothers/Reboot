@@ -562,8 +562,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 132209399}
-  selectedCommands: []
+  - {fileID: 132209464}
+  selectedCommands:
+  - {fileID: 132209465}
   variables:
   - {fileID: 132209437}
   description: 
@@ -2980,10 +2981,10 @@ MonoBehaviour:
   storyText: "We're trying to impress Mr. Rarebit, the art teacher, so we can get
     in his fancy art show together.  Stephanie is really into femme couture (idk
     what that is --something fashiony).  She knows how to do fancy makeup & likes
-    chilling at the mall. \n\tSo, back to Nicole!  Nicole picks on a lot of kids
-    apparently, but especially has it out for Jess.  Stephanie says that Nicole is
-    a b*atch because she has problems at home.  When Nicole gets picked up from soccer,
-    her parents are always yelling and honking the horn."
+    chilling at the mall. \n\tSo, back to Nicole!  She picks on a lot of kids apparently,
+    but especially Jess.  Stephanie says that Nicole is a b*atch because she has
+    problems at home.  When Nicole gets picked up from soccer, her parents are always
+    yelling and honking the horn."
   description: 
   character: {fileID: 2108162615}
   portrait: {fileID: 21300000, guid: a1d8931b882db4710b78819f05903ae5, type: 3}
@@ -3058,8 +3059,7 @@ MonoBehaviour:
     name is Nicole and she is apparently next level according to my friend Jessie. 
     \n\tOh yeah -- first, let me tell you about my friends!  So Jess is sporty, brainy
     and mature.  She is a soccer player and videogamer.  Jess's BFFs Miko and Stephanie
-    are also both on the soccer team, but not as excited about sports.  Miko is an
-    amazing fine painter."
+    are also both on the soccer team.  Miko is an amazing fine painter."
   description: 
   character: {fileID: 2108162615}
   portrait: {fileID: 21300000, guid: 11f6225aba28f44588c2a44023dd34cc, type: 3}
