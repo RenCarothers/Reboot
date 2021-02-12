@@ -317,7 +317,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 478797227}
   selectedCommands:
-  - {fileID: 478797292}
+  - {fileID: 478797233}
   variables: []
   description: 
   stepPause: 0
@@ -1334,8 +1334,7 @@ MonoBehaviour:
   itemId: 131
   indentLevel: 0
   storyText: They just assumed that reprimanding Nicole was enough to solve things. 
-    They didn't stop to understand how I felt, or even how Nicole's twisted brain
-    works.
+    They didn't stop to understand how I felt... or Nicole's twisted brain.
   description: 
   character: {fileID: 801770660}
   portrait: {fileID: 21300000, guid: e98922f7ea7a8499b9084c5cc5209eee, type: 3}

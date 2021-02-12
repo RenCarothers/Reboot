@@ -222,6 +222,7 @@ GameObject:
   - component: {fileID: 132209493}
   - component: {fileID: 132209492}
   - component: {fileID: 132209496}
+  - component: {fileID: 132209441}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -254,9 +255,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 132209439}
+  - {fileID: 132209399}
   selectedCommands:
-  - {fileID: 132209410}
+  - {fileID: 132209492}
   variables: []
   description: 
   stepPause: 0
@@ -330,6 +331,7 @@ MonoBehaviour:
   - {fileID: 132209494}
   - {fileID: 132209493}
   - {fileID: 132209492}
+  - {fileID: 132209441}
   - {fileID: 132209472}
   - {fileID: 132209403}
   - {fileID: 132209402}
@@ -1354,6 +1356,33 @@ MonoBehaviour:
   - {fileID: 132209424}
   - {fileID: 132209407}
   suppressAllAutoSelections: 0
+--- !u!114 &132209441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132209396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 130
+  indentLevel: 0
+  storyText: Let's do it! {w=0.25}
+  description: 
+  character: {fileID: 6527907093928528372}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1347333175}
 --- !u!114 &132209442
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2457,7 +2486,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 127
   indentLevel: 0
-  storyText: What's going to happen?!  You decide! {w=0.25}
+  storyText: What's going to happen?!  Can you help me decide how my first couple
+    days will play out?? {w=0.25}
   description: 
   character: {fileID: 6527907093928528372}
   portrait: {fileID: 0}

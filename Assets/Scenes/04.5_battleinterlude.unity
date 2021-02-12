@@ -1975,8 +1975,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 922936042}
-  selectedCommands: []
+  - {fileID: 922936037}
+  selectedCommands:
+  - {fileID: 922936044}
   variables: []
   description: 
   stepPause: 0
@@ -2181,7 +2182,7 @@ MonoBehaviour:
   targetTextObject: {fileID: 1584004649}
   text:
     stringRef: {fileID: 0}
-    stringVal: Nicole staggers in defeat!
+    stringVal: Nicole crumbles in defeat!
   description: 
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &922936031
@@ -2516,7 +2517,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 1.35
   durationOLD: 0
 --- !u!114 &922936045
 MonoBehaviour:
