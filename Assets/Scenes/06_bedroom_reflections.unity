@@ -204,6 +204,87 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &127643163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 127643165}
+  - component: {fileID: 127643164}
+  m_Layer: 0
+  m_Name: rockett_thoughts_sprite6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &127643164
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127643163}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -1
+  m_Sprite: {fileID: 21300000, guid: 19ead8422bb664443a0e81733986c9cb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 6.62, y: 10.98}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &127643165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127643163}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -18.49, y: 9.74, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &283278519
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,7 +336,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.03, y: 0.61}
+    oldSize: {x: 2.65, y: 0.65}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -520,6 +601,87 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &922756917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 922756919}
+  - component: {fileID: 922756918}
+  m_Layer: 0
+  m_Name: rockett_thoughts_sprite7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &922756918
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922756917}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -1
+  m_Sprite: {fileID: 21300000, guid: 251f7391dea37497d9fb7f69364f0532, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 6.62, y: 10.98}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &922756919
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922756917}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -18.49, y: 9.74, z: 0}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1111475411
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -742,19 +904,14 @@ GameObject:
   - component: {fileID: 1245071254}
   - component: {fileID: 1245071253}
   - component: {fileID: 1245071261}
-  - component: {fileID: 1245071260}
   - component: {fileID: 1245071259}
   - component: {fileID: 1245071258}
   - component: {fileID: 1245071257}
   - component: {fileID: 1245071265}
   - component: {fileID: 1245071267}
   - component: {fileID: 1245071266}
-  - component: {fileID: 1245071262}
-  - component: {fileID: 1245071256}
   - component: {fileID: 1245071255}
-  - component: {fileID: 1245071268}
   - component: {fileID: 1245071269}
-  - component: {fileID: 1245071264}
   - component: {fileID: 1245071263}
   - component: {fileID: 1245071270}
   - component: {fileID: 1245071271}
@@ -765,6 +922,16 @@ GameObject:
   - component: {fileID: 1245071274}
   - component: {fileID: 1245071275}
   - component: {fileID: 1245071273}
+  - component: {fileID: 1245071282}
+  - component: {fileID: 1245071281}
+  - component: {fileID: 1245071280}
+  - component: {fileID: 1245071256}
+  - component: {fileID: 1245071268}
+  - component: {fileID: 1245071264}
+  - component: {fileID: 1245071262}
+  - component: {fileID: 1245071260}
+  - component: {fileID: 1245071283}
+  - component: {fileID: 1245071284}
   - component: {fileID: 1245071279}
   m_Layer: 0
   m_Name: Flowchart
@@ -1096,22 +1263,31 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1245071256
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245071241}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a598660d01b2343bb92adebcbb629ec5, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 25
-  indentLevel: 1
-  targetClickable2D: {fileID: 283278520}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
+  itemId: 43
+  indentLevel: 0
+  storyText: Maybe I'll see you in my next adventure!
+  description: 
+  character: {fileID: 1685909999}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 0
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 579678171}
 --- !u!114 &1245071257
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1180,20 +1356,23 @@ MonoBehaviour:
   setSayDialog: {fileID: 579678171}
 --- !u!114 &1245071260
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245071241}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d1724bb98f694376b7653fa24a54541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 1245071261}
-  suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 283278520}
-  waitFrames: 1
+  itemId: 47
+  indentLevel: 0
+  targetSprites:
+  - {fileID: 127643164}
+  orderInLayer:
+    integerRef: {fileID: 0}
+    integerVal: 0
 --- !u!114 &1245071261
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1210,22 +1389,29 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 145
-    width: 122
+    width: 101
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 10
-  blockName: Sleep Button
+  blockName: Fade Out
   description: 
-  eventHandler: {fileID: 1245071260}
+  eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1245071268}
   - {fileID: 1245071259}
+  - {fileID: 1245071256}
+  - {fileID: 1245071264}
+  - {fileID: 1245071284}
+  - {fileID: 1245071262}
+  - {fileID: 1245071283}
+  - {fileID: 1245071260}
   - {fileID: 1245071258}
   - {fileID: 1245071279}
   suppressAllAutoSelections: 0
 --- !u!114 &1245071262
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1235,13 +1421,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d1724bb98f694376b7653fa24a54541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 24
-  indentLevel: 1
+  itemId: 46
+  indentLevel: 0
   targetSprites:
-  - {fileID: 283278522}
+  - {fileID: 922756918}
   orderInLayer:
     integerRef: {fileID: 0}
-    integerVal: 4
+    integerVal: 0
 --- !u!114 &1245071263
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1277,20 +1463,23 @@ MonoBehaviour:
   setSayDialog: {fileID: 365479377}
 --- !u!114 &1245071264
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245071241}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d1724bb98f694376b7653fa24a54541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 29
-  indentLevel: 1
-  commenterName: 
-  commentText: if flight
+  itemId: 45
+  indentLevel: 0
+  targetSprites:
+  - {fileID: 922756918}
+  orderInLayer:
+    integerRef: {fileID: 0}
+    integerVal: 6
 --- !u!114 &1245071265
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1369,36 +1558,38 @@ MonoBehaviour:
   commandList:
   - {fileID: 1245071272}
   - {fileID: 1245071278}
-  - {fileID: 1245071268}
   - {fileID: 1245071266}
   - {fileID: 1245071269}
-  - {fileID: 1245071264}
-  - {fileID: 1245071262}
-  - {fileID: 1245071256}
+  - {fileID: 1245071282}
   - {fileID: 1245071277}
   - {fileID: 1245071263}
   - {fileID: 1245071270}
+  - {fileID: 1245071281}
   - {fileID: 1245071276}
   - {fileID: 1245071273}
   - {fileID: 1245071275}
+  - {fileID: 1245071280}
   - {fileID: 1245071274}
   suppressAllAutoSelections: 0
 --- !u!114 &1245071268
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245071241}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea6e8f632db87477eb750446b28d73a3, type: 3}
+  m_Script: {fileID: 11500000, guid: 5d1724bb98f694376b7653fa24a54541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 27
-  indentLevel: 1
-  commenterName: 
-  commentText: If fawn
+  itemId: 44
+  indentLevel: 0
+  targetSprites:
+  - {fileID: 127643164}
+  orderInLayer:
+    integerRef: {fileID: 0}
+    integerVal: 5
 --- !u!114 &1245071269
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1519,11 +1710,11 @@ MonoBehaviour:
     Jessie and I in the hallway.  Jessie completely froze.   I was ready.  I came
     at Nicole with the best insults, you should''ve seen it!!  Bscly I told her there
     was nothing sadder than a bully so miserable with being themself that they need
-    to pick on people.  Oh man the look on her face.  She was so pissed she ran out
-    of combacks!
+    to pick on people.  Oh man, the look on her face.  She was so pissed, she ran
+    out of combacks!
 
-    Later at lunch, she came out of nowhere and challenged me again,
-    tho.  We had an epic foodfight, which I won, duh!'
+    She tried to shove me around, but she lost, obviously. 
+    It''s like the fight went right out of her after I put her in her place. '
   description: 
   character: {fileID: 1685909999}
   portrait: {fileID: 21300000, guid: 4f21eda498b4c49b9b5b94e5142d9cbb, type: 3}
@@ -1672,7 +1863,7 @@ MonoBehaviour:
           spriteVal: {fileID: 0}
         stringData:
           stringRef: {fileID: 0}
-          stringVal: freeze
+          stringVal: fight
         textureData:
           textureRef: {fileID: 0}
           textureVal: {fileID: 0}
@@ -2324,8 +2515,116 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e1337544a71d4d5dab5510fe86ddca8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 39
+  itemId: 50
   indentLevel: 0
+--- !u!114 &1245071280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245071241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 42
+  indentLevel: 1
+  targetFlowchart: {fileID: 1245071242}
+  targetBlock: {fileID: 1245071261}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1245071281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245071241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 41
+  indentLevel: 1
+  targetFlowchart: {fileID: 1245071242}
+  targetBlock: {fileID: 1245071261}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1245071282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245071241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 40
+  indentLevel: 1
+  targetFlowchart: {fileID: 1245071242}
+  targetBlock: {fileID: 1245071261}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1245071283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245071241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 48
+  indentLevel: 0
+  storyText: Be seein' ya! {w=0.35}
+  description: 
+  character: {fileID: 1685909999}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 0
+  waitForClick: 0
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 579678171}
+--- !u!114 &1245071284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245071241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 49
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 0.35
+  durationOLD: 0
 --- !u!1 &1249339879
 GameObject:
   m_ObjectHideFlags: 0
