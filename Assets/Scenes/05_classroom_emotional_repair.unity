@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 478797291}
   - component: {fileID: 478797290}
   - component: {fileID: 478797292}
-  - component: {fileID: 478797294}
+  - component: {fileID: 478797293}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -376,7 +376,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1.5
+    floatVal: 0.25
   durationOLD: 0
 --- !u!114 &478797225
 MonoBehaviour:
@@ -573,9 +573,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 478797229}
   commandList:
-  - {fileID: 478797226}
-  - {fileID: 478797294}
   - {fileID: 478797224}
+  - {fileID: 478797226}
+  - {fileID: 478797293}
   - {fileID: 478797225}
   - {fileID: 478797235}
   - {fileID: 478797232}
@@ -2310,7 +2310,7 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
---- !u!114 &478797294
+--- !u!114 &478797293
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2319,15 +2319,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 478797221}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 160
+  itemId: 161
   indentLevel: 0
-  musicClip: {fileID: 8300000, guid: f54e0cc541851486595abc58d5f1d7d3, type: 3}
-  atTime: 0
-  loop: 1
-  fadeDuration: 1
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1.5
+  durationOLD: 0
 --- !u!1001 &697068338
 PrefabInstance:
   m_ObjectHideFlags: 0

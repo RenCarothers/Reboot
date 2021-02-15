@@ -214,10 +214,8 @@ GameObject:
   - component: {fileID: 132209486}
   - component: {fileID: 132209485}
   - component: {fileID: 132209487}
-  - component: {fileID: 132209488}
   - component: {fileID: 132209490}
   - component: {fileID: 132209489}
-  - component: {fileID: 132209491}
   - component: {fileID: 132209494}
   - component: {fileID: 132209493}
   - component: {fileID: 132209492}
@@ -255,9 +253,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 132209399}
+  - {fileID: 132209445}
   selectedCommands:
-  - {fileID: 132209492}
+  - {fileID: 132209455}
   variables: []
   description: 
   stepPause: 0
@@ -323,7 +321,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 132209406}
   - {fileID: 132209487}
-  - {fileID: 132209488}
   - {fileID: 132209404}
   - {fileID: 132209405}
   - {fileID: 132209470}
@@ -1490,7 +1487,6 @@ MonoBehaviour:
   - {fileID: 132209473}
   - {fileID: 132209456}
   - {fileID: 132209489}
-  - {fileID: 132209491}
   - {fileID: 132209455}
   - {fileID: 132209454}
   - {fileID: 132209453}
@@ -2406,23 +2402,6 @@ MonoBehaviour:
   atTime: 1
   loop: 1
   fadeDuration: 1
---- !u!114 &132209488
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132209396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 121
-  indentLevel: 0
-  volume: 0.4
-  fadeDuration: 3
-  waitUntilFinished: 0
 --- !u!114 &132209489
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2455,23 +2434,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 122
   indentLevel: 0
---- !u!114 &132209491
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132209396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 124
-  indentLevel: 0
-  volume: 0.4
-  fadeDuration: 0
-  waitUntilFinished: 1
 --- !u!114 &132209492
 MonoBehaviour:
   m_ObjectHideFlags: 2
