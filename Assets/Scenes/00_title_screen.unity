@@ -239,8 +239,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1026600443}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.42, y: 10.18, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalPosition: {x: -18.52, y: 10.63, z: 0}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -403,8 +403,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1539986766}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.58, y: 11.95, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -18.48, y: 11.87, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -523,7 +523,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1772777075}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1772777079}
   variables: []
   description: 
   stepPause: 0
@@ -653,7 +654,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 7
   indentLevel: 0
-  musicClip: {fileID: 8300000, guid: 8fcb26a9372dd4f2387b068001bdedf6, type: 3}
+  musicClip: {fileID: 8300000, guid: fc5163684c2104226ac30f7d4b0c6869, type: 3}
   atTime: 0
   loop: 0
   fadeDuration: 1
@@ -1307,8 +1308,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   viewSize: 2
-  primaryAspectRatio: {x: 2, y: 1}
-  secondaryAspectRatio: {x: 2, y: 1}
+  primaryAspectRatio: {x: 4, y: 3}
+  secondaryAspectRatio: {x: 4, y: 3}
 --- !u!4 &1461169181227846293
 Transform:
   m_ObjectHideFlags: 0
