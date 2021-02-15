@@ -591,8 +591,6 @@ GameObject:
   - component: {fileID: 132209465}
   - component: {fileID: 132209466}
   - component: {fileID: 132209464}
-  - component: {fileID: 132209441}
-  - component: {fileID: 132209458}
   - component: {fileID: 132209463}
   - component: {fileID: 132209468}
   - component: {fileID: 132209470}
@@ -622,6 +620,7 @@ GameObject:
   - component: {fileID: 132209493}
   - component: {fileID: 132209492}
   - component: {fileID: 132209495}
+  - component: {fileID: 132209496}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -642,11 +641,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -1, y: 0}
+  scrollPos: {x: 35.48216, y: 12.888915}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 403
-  zoom: 1
+  zoom: 0.8659983
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -654,9 +653,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 132209445}
+  - {fileID: 132209442}
   selectedCommands:
-  - {fileID: 132209473}
+  - {fileID: 132209459}
   variables: []
   description: 
   stepPause: 0
@@ -711,7 +710,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 65
     y: 69
-    width: 72
+    width: 71.939995
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -768,7 +767,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &132209402
 MonoBehaviour:
@@ -1232,8 +1231,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 55
   indentLevel: 0
-  storyText: Well if it isn't the world's biggest loser, Jessie Marbella.  Converting
-    more freaks into the flock, I see.
+  storyText: Well, well, if it isn't the world's biggest loser, Jessie Marbella. 
+    Converting more freaks into the flock, I see.
   description: 
   character: {fileID: 7575444275830870135}
   portrait: {fileID: 21300000, guid: 5c34d29ea3b3c446a92871490525d4ed, type: 3}
@@ -1682,7 +1681,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 310
     y: 69
-    width: 142
+    width: 141.2242
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1734,8 +1733,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 42
-    y: 130
-    width: 175
+    y: 131.0395
+    width: 174.13419
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1759,43 +1758,6 @@ MonoBehaviour:
   - {fileID: 132209424}
   - {fileID: 132209407}
   suppressAllAutoSelections: 0
---- !u!114 &132209441
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132209396}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 96
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'Jessie w=0.5: Who else do you have on your schedule?
-
-      Rockett
-      w=0.5: A Mr. Rarebit for art?  That''s the only one I really paid attention
-      to, cuz I love art; I''d hafta look at my schedule to remember the rest.
-
-      Jessie
-      w=0.5: Oh nice!  You''d love my friend Miko, then -- she''s in that class and
-      is a wizard of an artist!'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
 --- !u!114 &132209442
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1812,7 +1774,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 82
     y: 194
-    width: 103
+    width: 103.11789
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1822,12 +1784,10 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 132209467}
-  - {fileID: 132209441}
   - {fileID: 132209466}
   - {fileID: 132209465}
   - {fileID: 132209464}
   - {fileID: 132209463}
-  - {fileID: 132209458}
   - {fileID: 132209462}
   - {fileID: 132209461}
   - {fileID: 132209460}
@@ -1892,7 +1852,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 287
     y: 139
-    width: 192
+    width: 190.87787
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1919,6 +1879,7 @@ MonoBehaviour:
   - {fileID: 132209477}
   - {fileID: 132209476}
   - {fileID: 132209475}
+  - {fileID: 132209496}
   suppressAllAutoSelections: 0
 --- !u!114 &132209446
 MonoBehaviour:
@@ -1934,9 +1895,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 83
   indentLevel: 0
-  storyText: No--I didn't mean-- sorry, I just have a sort of dark sense of humor. 
-    Jessie, I'm really glad to have met you.  And she can't be that bad, I'm not
-    worried. {w=0.5}
+  storyText: No--I didn't mean--Jessie, I'm really glad to have met you.  And she
+    can't be that bad, I'm not worried. {w=0.5}
   description: 
   character: {fileID: 6527907093928528372}
   portrait: {fileID: 21300000, guid: 23762305ea938432cad433ef0851ee99, type: 3}
@@ -2116,8 +2076,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 76
   indentLevel: 0
-  storyText: Thing is...since she saw you with me...she might...take an interest
-    in you, too.{w=0.5}
+  storyText: Thing is...since she saw you with me...she might...decide to give you
+    a hassel, too.{w=0.5}
   description: 
   character: {fileID: 1401770160925836871}
   portrait: {fileID: 21300000, guid: e98922f7ea7a8499b9084c5cc5209eee, type: 3}
@@ -2144,7 +2104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 75
   indentLevel: 0
-  storyText: Wow.  She's... charming.  {w=0.5}
+  storyText: Wow.  She's...charming.  {w=0.5}
   description: 
   character: {fileID: 6527907093928528372}
   portrait: {fileID: 21300000, guid: 23762305ea938432cad433ef0851ee99, type: 3}
@@ -2245,47 +2205,6 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &132209458
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 132209396}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f608b8c9fb3044200aac956492d8d586, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 97
-  indentLevel: 0
-  conversationText:
-    stringRef: {fileID: 0}
-    stringVal: 'Rockett w=0.5: Cool!
-
-      Jessie w=0.5: Where''d you move from,
-      Rockett?
-
-      Rockett w=0.5: Forestville.
-
-      Jessie w=0.5: Oh cool, Well
-      what do you think of our little town so far?
-
-      Rockett w=0.5: Actually,
-      we just got here a few days ago.  All I''ve had time to do is start unpacking,
-      really.'
-  clearPrevious:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForInput:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  waitForSeconds:
-    floatRef: {fileID: 0}
-    floatVal: 0
-  fadeWhenDone:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
 --- !u!114 &132209459
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2300,8 +2219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 89
   indentLevel: 0
-  storyText: Actually, we just got here.  All I've really had time to do is start
-    unpacking.{w=0.5}
+  storyText: Actually, we just got here.  All I've really had time to do is unpack.{w=0.5}
   description: 
   character: {fileID: 6527907093928528372}
   portrait: {fileID: 21300000, guid: 23762305ea938432cad433ef0851ee99, type: 3}
@@ -2550,8 +2468,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 99
   indentLevel: 0
-  storyText: This is Whistling Pines Junior High.  It's the middle of the school
-    year, but this is my first day because I just moved to town. {w=0.25}
+  storyText: I'm Rockett & this is Whistling Pines Junior High.  It's the middle
+    of the school year, but this is my first day because I just moved to town. {w=0.25}
   description: 
   character: {fileID: 6527907093928528372}
   portrait: {fileID: 0}
@@ -2729,7 +2647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 107
   indentLevel: 0
-  storyText: Actually, she is.  But, let's just get you to class, for now, so you
+  storyText: Actually, she is.  But, let's just get you to homeroom for now, so you
     can meet the teacher before class starts.{w=0.5}
   description: 
   character: {fileID: 1401770160925836871}
@@ -3107,6 +3025,25 @@ MonoBehaviour:
   indentLevel: 0
   cursorTexture: {fileID: 2800000, guid: 502e0c9b755f34db0b90bf78857d8a1c, type: 3}
   hotSpot: {x: 0, y: 0}
+--- !u!114 &132209496
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132209396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 129
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: 02_cafeteria_meet_friends
+  loadingImage: {fileID: 2800000, guid: 5fccaf8d668a24557b187be4bb296d31, type: 3}
+  sceneNameOLD: 
 --- !u!1 &172823892
 GameObject:
   m_ObjectHideFlags: 0
@@ -3144,7 +3081,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 140, y: 76}
+  m_AnchoredPosition: {x: 115, y: 76}
   m_SizeDelta: {x: 77.900024, y: 77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &172823894
@@ -3295,7 +3232,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &386864973
 GameObject:
@@ -3375,7 +3312,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &394930416
 GameObject:
@@ -3412,8 +3349,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -178.5, y: 308}
-  m_SizeDelta: {x: 275, y: 325}
+  m_AnchoredPosition: {x: -178.5, y: 280}
+  m_SizeDelta: {x: 250, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &394930418
 MonoBehaviour:
@@ -3553,7 +3490,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &586659073
 GameObject:
@@ -3878,7 +3815,7 @@ Transform:
   - {fileID: 6527907093928528375}
   - {fileID: 1401770160925836870}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1336819024
 GameObject:
@@ -4727,7 +4664,7 @@ RectTransform:
   m_Children:
   - {fileID: 586659078}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -5194,7 +5131,7 @@ Transform:
   - {fileID: 7083625859467514031}
   - {fileID: 1985442413}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7083625858740525381
 GameObject:
@@ -5206,7 +5143,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7083625858740525378}
   m_Layer: 0
-  m_Name: SceneSetupHallway
+  m_Name: SceneSetupSchoolyard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5519,7 +5456,7 @@ GameObject:
   - component: {fileID: 7083625859467514031}
   - component: {fileID: 7083625859467514030}
   m_Layer: 0
-  m_Name: ViewHallPan
+  m_Name: ViewSchoolyardPan
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -5579,7 +5516,7 @@ GameObject:
   - component: {fileID: 7083625859535728696}
   - component: {fileID: 7083625859535728699}
   m_Layer: 0
-  m_Name: ViewHallMain
+  m_Name: ViewSchoolyardMain
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -5923,7 +5860,7 @@ GameObject:
   - component: {fileID: 7083625860277976933}
   - component: {fileID: 7083625860277976932}
   m_Layer: 0
-  m_Name: StageHallway
+  m_Name: StageSchoolyard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
