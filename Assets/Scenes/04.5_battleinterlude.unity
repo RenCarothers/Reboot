@@ -1943,6 +1943,7 @@ GameObject:
   - component: {fileID: 922936049}
   - component: {fileID: 922936048}
   - component: {fileID: 922936071}
+  - component: {fileID: 922936025}
   m_Layer: 0
   m_Name: BattlerFlowchart
   m_TagString: Untagged
@@ -1975,9 +1976,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 922936037}
+  - {fileID: 922936042}
   selectedCommands:
-  - {fileID: 922936044}
+  - {fileID: 922936025}
   variables: []
   description: 
   stepPause: 0
@@ -2070,6 +2071,23 @@ MonoBehaviour:
   parentBlock: {fileID: 922936022}
   suppressBlockAutoSelect: 0
   waitForFrames: 1
+--- !u!114 &922936025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922936019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 56
+  indentLevel: 0
+  volume: 0.4
+  fadeDuration: 1
+  waitUntilFinished: 1
 --- !u!114 &922936026
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2457,6 +2475,7 @@ MonoBehaviour:
   - {fileID: 922936046}
   - {fileID: 922936070}
   - {fileID: 922936071}
+  - {fileID: 922936025}
   - {fileID: 922936069}
   - {fileID: 922936068}
   - {fileID: 922936067}
