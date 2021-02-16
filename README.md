@@ -5,6 +5,10 @@ A 2D visual novel game build in the Unity Engine.  Reboot was deployed via Unity
 | :sparkles:[Play](#Play):sparkles: | :rocket:[Setup](#Dev-Setup-Instructions):rocket: | :camera:[Screenshots](#screenshots):camera: |
 | --------------- | -------- | ----------- |
 
+<p align="center">
+  <img src="https://rencarothers.github.io/Reboot-Homepage/static/media/header.670f41a4.png" />
+</p>
+
 ## Play
 
 If you're here to play, head to Reboot's homepage on [GitHub Pages](https://rencarothers.github.io/Reboot-Homepage/), it can be played there via desktop browser :grin:
