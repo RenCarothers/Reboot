@@ -5,6 +5,8 @@ using UnityEngine.UI;
 using Fungus;
 
 public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
+public enum PlayerAttackInProgress { YES, NO }
+public enum PlayerHealInProgress { YES, NO }
 
 public class BattleSystem : MonoBehaviour
 {
@@ -25,11 +27,16 @@ public class BattleSystem : MonoBehaviour
 	public BattleHUD enemyHUD;
 
 	public BattleState state;
+	public PlayerAttackInProgress playerAttackState; // state of if player is attacking currently
+	public PlayerHealInProgress playerHealState; // "" healing
 
     // Start is called before the first frame update
     void Start()
     {
 		state = BattleState.START;
+		playerAttackState = PlayerAttackInProgress.NO; // at the start of the game, the player is not attacking
+		playerHealState = PlayerHealInProgress.NO; // "" healing
+		// Debug.Log(state);
 		StartCoroutine(SetupBattle());
     }
 
@@ -46,6 +53,22 @@ public class BattleSystem : MonoBehaviour
 		playerHUD.SetHUD(playerUnit);
 		enemyHUD.SetHUD(enemyUnit);
 
+		yield return new WaitForSeconds(3f);
+
+		dialogueText.text = enemyUnit.unitName + " appears weakened by your insults!";
+
+		enemyUnit.TakeDamage(playerUnit.damage);
+
+		enemyHUD.SetHP(enemyUnit.currentHP);
+
+		yield return new WaitForSeconds(2f);
+
+		dialogueText.text = "Your confidence strengthens your level!";
+
+		playerUnit.unitLevel = 999;
+
+		playerHUD.SetHUD(playerUnit);
+
 		yield return new WaitForSeconds(2f);
 
 		state = BattleState.PLAYERTURN;
@@ -54,6 +77,11 @@ public class BattleSystem : MonoBehaviour
 
 	IEnumerator PlayerAttack()
 	{
+		playerAttackState = PlayerAttackInProgress.YES; // update state; the player is currently in an attack
+
+		dialogueText.text = "Rockett shoves Nicole!";
+
+		yield return new WaitForSeconds(1f);
 
 		bool isDead = enemyUnit.TakeDamage(playerUnit.damage);
 
@@ -63,9 +91,11 @@ public class BattleSystem : MonoBehaviour
 
 		yield return new WaitForSeconds(1f);
 
-		dialogueText.text = "The attack is successful!";
+		dialogueText.text = "Nicole staggers backwards!";
 
 		yield return new WaitForSeconds(2f);
+
+		Debug.Log(state);
 
 		if(isDead)
 		{
@@ -73,6 +103,7 @@ public class BattleSystem : MonoBehaviour
 			EndBattle();
 		} else
 		{
+			playerAttackState = PlayerAttackInProgress.NO; // the player's attack is finished
 			state = BattleState.ENEMYTURN;
 			StartCoroutine(EnemyTurn());
 		}
@@ -85,6 +116,8 @@ public class BattleSystem : MonoBehaviour
 		flowchart.ExecuteBlock("PunchPlayer");
 
 		yield return new WaitForSeconds(1f);
+
+		dialogueText.text = "The attack lands feebly.";
 
 		bool isDead = playerUnit.TakeDamage(enemyUnit.damage);
 
@@ -116,7 +149,7 @@ public class BattleSystem : MonoBehaviour
 
 		} else if (state == BattleState.LOST)
 		{
-			dialogueText.text = "You were defeated.";
+			dialogueText.text = "You were defeated."; // This is not possible in current setup
 		}
 	}
 
@@ -127,14 +160,25 @@ public class BattleSystem : MonoBehaviour
 
 	IEnumerator PlayerHeal()
 	{
+		playerHealState = PlayerHealInProgress.YES; // update state; the player is currently in a heal
+
+		dialogueText.text = "Rockett turns to her friends.";
+
+		yield return new WaitForSeconds(1f);
+
+		dialogueText.text = "Stephanie cheers.";
+
+		yield return new WaitForSeconds(1f);
+
 		playerUnit.Heal(5);
 
 		playerHUD.SetHP(playerUnit.currentHP);
-		dialogueText.text = "You feel renewed strength!";
+		dialogueText.text = "Rockett feels renewed strength!";
 
 		yield return new WaitForSeconds(2f);
 
 		state = BattleState.ENEMYTURN;
+		playerHealState = PlayerHealInProgress.NO; // the player's heal is finished
 		StartCoroutine(EnemyTurn());
 	}
 
@@ -142,6 +186,10 @@ public class BattleSystem : MonoBehaviour
 	{
 		if (state != BattleState.PLAYERTURN)
 			return;
+		else if (playerAttackState != PlayerAttackInProgress.NO) // if the player is in an attack, can't attack again
+			return;
+		else if (playerHealState != PlayerHealInProgress.NO) // if the player is in an heal, can't attack
+			return;		
 
 		StartCoroutine(PlayerAttack());
 	}
@@ -150,6 +198,10 @@ public class BattleSystem : MonoBehaviour
 	{
 		if (state != BattleState.PLAYERTURN)
 			return;
+		else if (playerAttackState != PlayerAttackInProgress.NO) // if the player is in an attack, can't heal
+			return;
+		else if (playerHealState != PlayerHealInProgress.NO) // if the player is in an heal, can't heal again
+			return;					
 
 		StartCoroutine(PlayerHeal());
 	}

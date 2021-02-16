@@ -283,6 +283,7 @@ GameObject:
   - component: {fileID: 478797291}
   - component: {fileID: 478797290}
   - component: {fileID: 478797292}
+  - component: {fileID: 478797293}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -315,9 +316,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 478797227}
+  - {fileID: 478797230}
   selectedCommands:
-  - {fileID: 478797292}
+  - {fileID: 478797224}
   variables: []
   description: 
   stepPause: 0
@@ -375,7 +376,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1.5
+    floatVal: 0.25
   durationOLD: 0
 --- !u!114 &478797225
 MonoBehaviour:
@@ -562,7 +563,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 67
-    y: 68
+    y: 67
     width: 72
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -572,8 +573,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 478797229}
   commandList:
-  - {fileID: 478797226}
   - {fileID: 478797224}
+  - {fileID: 478797226}
+  - {fileID: 478797293}
   - {fileID: 478797225}
   - {fileID: 478797235}
   - {fileID: 478797232}
@@ -1334,8 +1336,7 @@ MonoBehaviour:
   itemId: 131
   indentLevel: 0
   storyText: They just assumed that reprimanding Nicole was enough to solve things. 
-    They didn't stop to understand how I felt, or even how Nicole's twisted brain
-    works.
+    They didn't stop to understand how I felt... or Nicole's twisted brain.
   description: 
   character: {fileID: 801770660}
   portrait: {fileID: 21300000, guid: e98922f7ea7a8499b9084c5cc5209eee, type: 3}
@@ -2309,6 +2310,24 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
+--- !u!114 &478797293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 478797221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 161
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1.5
+  durationOLD: 0
 --- !u!1001 &697068338
 PrefabInstance:
   m_ObjectHideFlags: 0
